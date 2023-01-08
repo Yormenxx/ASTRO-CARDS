@@ -1,0 +1,28 @@
+---
+
+interface Props {
+    title?:String
+    content?:String
+}
+
+
+const {title = "Default title", content = "Default content"} = Astro.props
+
+---
+<div class="cards__item__info">
+
+    <h1>{title}</h1>
+    <p>{content}</p>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+

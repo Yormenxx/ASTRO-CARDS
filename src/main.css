@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Andika', sans-serif;
+}
+
+.container__card{
+    border: 1px solid white;
+}
+
+
+.container__cards{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__items{
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .15); 
+    backdrop-filter: blur(5px);
+}
+
+.container__items img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cards__item__info{
+    text-align: center;
+}
+
+.cards__item__info h1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.title__cards{
+    font-size: 2.6rem;
+    text-transform: uppercase;
+}
+
+.container__items:hover{
+    transform: translate(5px, -5px);
+    transition: .6s;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
